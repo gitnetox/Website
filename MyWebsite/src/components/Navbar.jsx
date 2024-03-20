@@ -36,6 +36,7 @@ function Navbar() {
       <h1 className="nav-link cursor-pointer relative mx-4 text-lg" onMouseEnter={addUnderline} onMouseLeave={removeUnderline}>Linkedin</h1>
       <h1 className="nav-link cursor-pointer relative mx-4 text-lg" onMouseEnter={addUnderline} onMouseLeave={removeUnderline}>Github</h1>
       <h1 className="nav-link cursor-pointer relative mx-4 text-lg" onMouseEnter={addUnderline} onMouseLeave={removeUnderline}>Projects</h1>
+      <h1 className="nav-link cursor-pointer relative mx-4 text-lg" onMouseEnter={addUnderline} onMouseLeave={removeUnderline}>About me</h1>
     </div>
   );
 }
