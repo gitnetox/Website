@@ -14,7 +14,7 @@ function Landing() {
       {/* Section 1: Hero Section */}
       <section className="h-screen w-full relative bg-gradient-to-r from-slate-800 to-slate-900">
         <div className="flex flex-col justify-center items-center h-full">
-          <h1 className={`text-white text-6xl`}>Hi, I'm Claudius!</h1>
+          <h1 className="relative overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-6xl text-white font-bold animate-typing">Hi, I'm Claudius!</h1>
           <button
             className="mt-4 bg-green-600 text-white px-4 py-2 rounded absolute bottom-0 mb-4 transition-transform duration-700 hover:scale-105"
             onClick={() => scrollToSection(section2Ref)}
