@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 
 function Landing() {
@@ -14,8 +14,13 @@ function Landing() {
       {/* Section 1: Hero Section */}
       <section className="h-screen w-full relative bg-gradient-to-r from-slate-800 to-slate-900">
         <div className="flex flex-col justify-center items-center h-full">
-          <h1 className="text-white text-6xl">Hi, i'm Claudius!</h1>
-          <button className="mt-4 bg-green-600 text-white px-4 py-2 rounded absolute bottom-0 mb-4" onClick={() => scrollToSection(section2Ref)}>Click me</button>
+          <h1 className={`text-white text-6xl`}>Hi, I'm Claudius!</h1>
+          <button
+            className="mt-4 bg-green-600 text-white px-4 py-2 rounded absolute bottom-0 mb-4 transition-transform duration-700 hover:scale-105"
+            onClick={() => scrollToSection(section2Ref)}
+          >
+            Click me
+          </button>
         </div>
       </section>
 
@@ -34,7 +39,7 @@ function Landing() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center h-full">
-          <button className="mt-4 bg-green-600 text-white px-4 py-2 rounded absolute bottom-0 mb-4" onClick={() => scrollToSection(section3Ref)}>Some projects</button>
+          <button className="mt-4 bg-green-600 text-white px-4 py-2 rounded transition-transform duration-700 hover:scale-105 absolute bottom-0 mb-4" onClick={() => scrollToSection(section3Ref)}>Some projects</button>
         </div> 
       </section>
 
