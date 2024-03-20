@@ -12,7 +12,7 @@ function Landing() {
   return (
     <div>
       {/* Section 1: Hero Section */}
-      <section className="h-screen w-full bg-slate-900 relative">
+      <section className="h-screen w-full relative bg-gradient-to-r from-slate-800 to-slate-900">
         <div className="flex flex-col justify-center items-center h-full">
           <h1 className="text-white text-6xl">Hi, i'm Claudius!</h1>
           <button className="mt-4 bg-green-600 text-white px-4 py-2 rounded absolute bottom-0 mb-4" onClick={() => scrollToSection(section2Ref)}>Click me</button>
@@ -20,7 +20,7 @@ function Landing() {
       </section>
 
       {/* Section 2: Navbar and Content */}
-      <section ref={section2Ref} className="h-screen w-full bg-slate-900 relative">
+      <section ref={section2Ref} className="h-screen w-full bg-gradient-to-r from-slate-800 to-slate-900 relative">
         <Navbar />
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center text-white mr-28">
@@ -39,7 +39,7 @@ function Landing() {
       </section>
 
       {/* Section 3: Navbar and Content */}
-      <section ref={section3Ref} className="h-screen w-full bg-slate-900 relative">
+      <section ref={section3Ref} className="h-screen w-full bg-gradient-to-r from-slate-800 to-slate-900 relative">
         <Navbar />
         <div className="flex flex-col justify-center items-center h-full">
           <h2 className="text-white text-4xl">Section 3</h2>
