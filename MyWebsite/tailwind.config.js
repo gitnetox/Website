@@ -13,8 +13,7 @@ export default {
         'my-blue': '#3490dc',
       },
       animation: {
-        typing: 'typing 4s steps(16), blink 0.7s infinite',
-        'typing-stop': 'typing-stop 4s steps(16) forwards, blink 0.7s infinite',
+        typing: 'typing 4s steps(20), blink 1s infinite',
       },
       keyframes: {
         typing: {
